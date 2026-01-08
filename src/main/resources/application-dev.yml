@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: journalapp
+
+  data:
+    mongodb:
+      uri: mongodb+srv://Anish041:Anish9417@cluster0.rdpmn.mongodb.net/journaldb?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      # username: myjournaluser
+      # password: mypassword
+      auto-index-creation: true
+  main:
+    allow-circular-references: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+weather:
+  api: https://zenquotes.io/api/random

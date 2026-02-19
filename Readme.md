@@ -10,7 +10,7 @@ Users can create, read, update, and delete personal journal entries with full au
 
 ## Features
 
-- **User Authentication & Authorization** using Spring Security + JWT
+- **User Authentication & Authorization** using Spring Security
 - **CRUD operations** for journal entries (Create, Read, Update, Delete)
 - **Role-based access control** (User/Admin)
 - **MongoDB** integration for flexible, schema-less storage
@@ -23,7 +23,7 @@ Users can create, read, update, and delete personal journal entries with full au
 
 - **Backend**: Java 17+, Spring Boot 3.x, Spring Security, Spring Data MongoDB
 - **Database**: MongoDB (NoSQL)
-- **Authentication**: JWT (JSON Web Tokens)
+- **Authentication**: Spring Security
 - **Build Tool**: Maven (or Gradle – adjust as per your project)
 - **Other**: Lombok (optional), Spring Boot Starter Web, Validation
 
